@@ -4,6 +4,7 @@
   --primary: #efb6b2;
   --secondary: #4e4e4e;
   --error: #ff4a4a;
+  --blue: 	#0000FF
 }
 
 /* base styles & title */
@@ -16,7 +17,7 @@ body{
   margin: 0 auto;
 }
 .title h1{
-  color: var(--primary);
+  color: var(--blue);
   font-size: 1.2rem;
   letter-spacing: 2px;
   font-weight: normal;
