@@ -1,3 +1,7 @@
+import * as firebase from 'firebase/app';
+import 'firebase/storage';
+import 'firebase/firestore';
+
 // Your web app's Firebase configuration
 var firebaseConfig = {
   apiKey: "AIzaSyBoTJ_i07AzX6DunzcDsG3tTeBqqawpUvg",
@@ -10,3 +14,8 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+
+const projectStorage = firebase.storage();
+const projectFirestore = firebase.firestore();
+
+export { projectStorage, projectFirestore };
